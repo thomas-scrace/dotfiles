@@ -1,0 +1,9 @@
+# Add ~/bin to PATH
+export PATH="$HOME/bin:$PATH"
+
+# golang
+export GOROOT=/usr/local/go
+
+# Default editor is vim and use vi keybindings in the shell
+export EDITOR=vim
+set -o vi
