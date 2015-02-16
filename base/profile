@@ -1,13 +1,8 @@
 eval $(keychain --eval --agents ssh -Q --quiet id_rsa)
 
-# Add ~/bin to PATH
 export PATH="$HOME/bin:$PATH"
-
-# golang
 export GOROOT=/usr/local/go
-
 export TERM=xterm
-# Default editor is vim and use vi keybindings in the shell
 export EDITOR=vim
 export ALTERNATE_EDITOR=""
 export VISUAL=vim
